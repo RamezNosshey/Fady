@@ -21,6 +21,7 @@ $('#creat_new_team').click(function(){
         localStorage.removeItem('t_2');
         $('#t_1_f').val('');
         $('#t_2_f').val('');
+        $('#note').val('');
         $('.handle_div').removeClass('d-flex');
         $('.handle_div').addClass('d-none');
         $('.entry_div').removeClass('d-none');
